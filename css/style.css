@@ -26,14 +26,25 @@ body{
     min-height:     100vh;
 }
 
-nav{
+header{ 
     display: flex;
     justify-content: space-between;
     padding: 15px;
     box-shadow: var(--shadow);
 }
 
-nav a {
+header a {
+    display: flex;
+    align-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-content: space-between;
+    gap: 15px;
+}
+
+header a {
     text-decoration: none;
     color: var(--cor-primaria);
     font-weight: bold;
@@ -42,7 +53,7 @@ nav a {
     align-items: center;
     margin-right: 25px;
 }
-nav a:hover{
+header a:hover{
     color: var(--fundo);
     background-color: var(--cor-primaria);
     transition: .4s, ease-in-out .2s;
@@ -52,10 +63,9 @@ nav a:hover{
 
 .logo {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     text-align: left;
     flex-direction: column;
-    position: static;
 }
 
 main{
