@@ -41,7 +41,7 @@ header a {
 nav {
     display: flex;
     align-content: space-between;
-    gap: 15px;
+    gap: 50px;
 }
 
 header a {
@@ -75,7 +75,7 @@ main{
 .hero {
     background: var(--gradient);
     padding: 15%;
-    margin: 10px;
+    margin: 25px;
     border-radius: var(--radius);
     display: flex;
     justify-content: center;
