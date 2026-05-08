@@ -50,6 +50,14 @@ nav a:hover{
     border-radius: 18px;
 }
 
+.logo {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    flex-direction: column;
+    position: static;
+}
+
 main{
     flex:    1;
 }
