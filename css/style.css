@@ -21,6 +21,9 @@ body{
     background: var(--gradient);
     font-family: var(--fonte);
     color: var(--cor-secundaria);
+    display:        flex;
+    flex-direction: column;
+    min-height:     100vh;
 }
 
 nav{
@@ -45,6 +48,10 @@ nav a:hover{
     transition: .4s, ease-in-out .2s;
     padding: 15px;
     border-radius: 18px;
+}
+
+main{
+    flex:    1;
 }
 
 .hero {
