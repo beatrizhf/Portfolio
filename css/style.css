@@ -37,6 +37,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 25px;
 }
 nav a:hover{
     color: var(--fundo);
@@ -60,11 +61,11 @@ nav a:hover{
 button{
     margin-top: 10px;
     padding: 5px;
-    width: 30%;
+    width: 110px;
     border-radius: var(--radius);
-    border: solid 1px var(--cor-secundaria);
-    background-color:#72b84dab ;
-    color: var(--cor-secundaria);
+    border: solid 1px var(--cor-primaria);
+    background-color:#2e412311 ;
+    color: var(--cor-primaria);
 }
 
 button:hover{
