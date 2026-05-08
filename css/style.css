@@ -33,14 +33,8 @@ header{
     box-shadow: var(--shadow);
 }
 
-header a {
-    display: flex;
-    align-content: space-between;
-}
-
 nav {
     display: flex;
-    align-content: space-between;
     gap: 50px;
 }
 
@@ -49,10 +43,10 @@ header a {
     color: var(--cor-primaria);
     font-weight: bold;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-right: 25px;
 }
+
 header a:hover{
     color: var(--fundo);
     background-color: var(--cor-primaria);
