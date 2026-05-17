@@ -198,6 +198,121 @@ justify-content: center;
     padding: 15px;
 }
 
+/* =========================
+   SOBRE
+========================= */
+
+.sobre-hero{
+  display:flex;
+  justify-content:center;
+  padding:40px;
+}
+
+.sobre-card{
+  background: var(--gradient);
+  padding:40px;
+  border-radius: var(--radius);
+  max-width: 800px;
+  text-align:center;
+}
+
+.sobre-grid{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.sobre-box{
+  background:#101010;
+  border:1px solid var(--cor-primaria);
+  padding:20px;
+  border-radius: var(--radius);
+  width:250px;
+}
+
+.sobre-box ul{
+  margin-top:10px;
+  padding-left:20px;
+}
+
+/* FOTO */
+.foto-perfil{
+  display:flex;
+  justify-content:center;
+  margin:30px;
+}
+
+.foto-perfil img{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid var(--cor-primaria);
+}
+
+/* =========================
+   CONTATO
+========================= */
+
+.contato-grid{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+  padding:30px;
+}
+
+.contato-box{
+  background:#101010;
+  padding:20px;
+  border-radius: var(--radius);
+  border:1px solid var(--cor-primaria);
+  width:320px;
+}
+
+table{
+  width:100%;
+  margin-top:10px;
+  border-collapse:collapse;
+}
+
+th, td{
+  border-bottom:1px solid #333;
+  padding:8px;
+  text-align:left;
+}
+
+select, textarea{
+  width:100%;
+  margin-top:8px;
+  margin-bottom:15px;
+  padding:8px;
+  border-radius: var(--radius);
+  border:none;
+  background:#1a1a1a;
+  color:white;
+}
+
+/* =========================
+   OBRIGADA PAGE
+========================= */
+
+.thanks{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:60vh;
+}
+
+.thanks-card{
+  text-align:center;
+  background: var(--gradient);
+  padding:40px;
+  border-radius: var(--radius);
+}
+
 footer{
     padding: 30px;
     background: #0f0f0f;
