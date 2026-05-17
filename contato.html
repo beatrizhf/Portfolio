@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Contato - Beatriz Haiana</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contato | Beatriz Haiana</title>
 </head>
-<body>
-<header>
 
-    <div class="logo">
-<h1>Beatriz Haiana</h1>
-<p>Portfólio | Front-End</p>
-    </div>
-    <nav>
-     <a href="index.html">Home</a>
+<body>
+
+<header>
+  <div class="logo">
+    <h1>Beatriz Haiana</h1>
+    <p>Portfólio | Front-End</p>
+  </div>
+
+  <nav>
+    <a href="index.html">Início</a>
     <a href="sobre.html">Sobre</a>
-    <a href="projetos.html">Projetos</a>
-</nav>
+    <a href="contato.html">Contato</a>
+  </nav>
 </header>
+
 <main>
 
-</main>
-<footer>
-        <div class="footer-grid">
-           <div class="footer-logo">
-            <h3>Beatriz Haiana</h3>
-            </div>
+  <section class="contato-grid">
 
-            <div class="footer-col">
-            <h3>Links</h3>
-            <a href="index.html">Início</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="contato.html">Contato</a>
-           </div>
+    <!-- TABELA -->
+    <div class="contato-box">
+      <h2>Horários</h2>
 
-            <div class="footer-col">
-            <h3>Contato</h3>
-           <p>(47) 99994-2225</p>
-           <p>@beatriz_hf</p>
-           <p>ferrari.beatriz14@gmail.com</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-        <p>&copy; 2026 Portfólio | Beatriz Haiana</p>
-        </div>
-    </footer>
+      <table>
+        <tr>
+          <th>Dia</th>
+          <th>Disponibilidade</th>
+        </tr>
+        <tr>
+          <td>Seg - Sex</td>
+          <td>09h - 18h</td>
+        </tr>
+        <tr>
+          <td>Sábado</td>
+          <td>10h - 14h</td>
+        </tr>
+        <tr>
+          <td>Domingo</td>
+          <td>Indisponível</td>
+        </tr>
+      </table>
     </div>
-</body>
 
+    <!-- FORM -->
+    <div class="contato-box">
+
+      <h2>Fale comigo</h2>
+
+      <form action="obrigada.html" method="GET">
+
+        <label>Tipo de mensagem</label>
+        <select name="tipo" required>
+          <option value="">Selecione</option>
+          <option value="feedback">Feedback</option>
+          <option value="orcamento">Orçamento</option>
+          <option value="duvida">Dúvida</option>
+        </select>
+
+        <label>Mensagem</label>
+        <textarea name="mensagem" rows="6" required></textarea>
+
+        <button type="submit">Enviar</button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Portfólio | Beatriz Haiana</p>
+  </div>
+</footer>
+
+</body>
 </html>
